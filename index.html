@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TalantaTickets — Bayern vs Ajax</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" data-nav="home">
+      <span class="brand-mark">T</span>
+      <span class="brand-text">Talanta<span>Tickets</span></span>
+    </a>
+    <nav class="topnav">
+      <a href="#" data-nav="home">Events</a>
+      <a href="#" data-nav="guide">Stadium Guide</a>
+      <a href="#" data-nav="mytickets">My Tickets</a>
+    </nav>
+    <a class="btn btn-gold btn-sm" href="#" data-action="open-event">Buy tickets</a>
+  </header>
+
+  <main id="app"></main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
